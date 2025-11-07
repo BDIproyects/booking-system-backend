@@ -1,0 +1,15 @@
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Environment
+.env            # ¡Crucial! Contiene tus credenciales de correo.
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
