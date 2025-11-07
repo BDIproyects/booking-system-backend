@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 
-const allowedOrigins = ['http://127.0.0.1:5173', 'http://localhost:5173', 'https://[TU_VERCEL_APP_URL].vercel.app']; // <-- ¡Añade tu URL de Vercel aquí!
+const allowedOrigins = ['http://127.0.0.1:5173', 'http://localhost:5173', 'https://booking-system-frontend-eight.vercel.app/'];
 app.use(cors({
     origin: (origin, callback) => {
         // Permitir peticiones sin 'origin' (como apps móviles o CURL)
